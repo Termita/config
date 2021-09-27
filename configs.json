@@ -16,16 +16,6 @@
 			"should_read": true
 		},
 		{
-			"url": "https://github.com/Termita/IgnisMulti",
-			"repo_name": "MDC Multilanguage updates",
-			"repo_path": "./config/languages",
-			"is_language": true,
-			"language": "",
-			"data_path": "",
-			"should_update": true,
-			"should_read": true
-		},
-		{
 			"url": "https://github.com/ProjectIgnis/Puzzles",
 			"repo_name": "Project Ignis puzzles",
 			"repo_path": "./puzzles/Canon collection",
@@ -33,8 +23,8 @@
 			"should_read": true
 		},
 		{
-			"url": "https://github.com/ProjectIgnis/Puzzles",
-			"repo_name": "Archivo Config",
+			"url": "https://github.com/Termita/config",
+			"repo_name": "Archivo Config y Idioma",
 			"repo_path": "./config",
 			"should_update": true,
 			"should_read": true
