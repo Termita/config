@@ -1,0 +1,33 @@
+# Change these first
+owner: pentcloud # Your GitHub organization or username, where this repository lives
+repo: symfonia-status # The name of this repository
+
+sites:
+  - name: Website Grupo
+    url: https://photoshacienda.grupointerparks.com
+  - name: APP
+    url: https://app.symfonia.io
+  - name: API
+    url: https://api.prd.symfonia.io
+  - name: Blog
+    url: https://symfonia.io/blog
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  cname: status.symfonia.io
+  # baseUrl: /your-repo-name
+  logoUrl: https://app.symfonia.io/assets/icon/logo.svg
+  name: Symfonia Status
+  introTitle: ""
+  introMessage: ""
+  navbar:
+    - title: Login
+      href: https://app.symfonia.io
+    - title: Blog
+      href: https://symfonia.io/blog
+    - title: Support
+      href: https://pent.cloud/symfonia-support
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
